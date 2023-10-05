@@ -37,6 +37,5 @@ bigger_than_9_numbers = [number_above_9 for number_above_9 in numbers if number_
 print(bigger_than_9_numbers)
 
 # to create a string (not list) of the last names for those full names longer than 11 characters
-# the result should be: 'Harlem, Hendrix, Lovelace'
 long_names = [big_name.split()[1] for big_name in full_names if len(big_name) > 11]
 print(long_names)
