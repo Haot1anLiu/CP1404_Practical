@@ -6,9 +6,11 @@ while True:
     if not email:
         break
 
+
     username = email.split('@')[0]  # Split email by '@' symbol to get username
     name_parts = username.split('.')  # Splitting usernames by '.' Split username to separate first and last name
     name = ' '.join(part.title() for part in name_parts)
+
 
     confirmation = input(f'Is your name {name}? (Y/n) ')
     if confirmation.lower() not in ['', 'y', 'yes']:
