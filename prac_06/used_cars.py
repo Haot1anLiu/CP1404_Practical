@@ -1,7 +1,6 @@
 
 from car import Car
 
-
 def main():
     """Demo test code to show how to use car class."""
     my_car = Car(180)
