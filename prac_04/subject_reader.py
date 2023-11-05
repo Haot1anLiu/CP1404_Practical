@@ -1,5 +1,5 @@
 
-FILENAME = "subject_data.txt.py"
+FILENAME = "subject_data.txt"
 
 
 def main():
