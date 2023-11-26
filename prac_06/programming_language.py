@@ -13,7 +13,6 @@ class ProgrammingLanguage:
     def is_dynamic(self):
         return self.typing == "Dynamic"
 
-
 def run_tests():
 
     ruby = ProgrammingLanguage("Ruby", "Dynamic", True, 1995)

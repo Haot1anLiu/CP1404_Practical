@@ -1,7 +1,6 @@
 
 from guitar import Guitar
 
-
 def run_tests():
     name = "Gibson L-5 CES"
     year = 1922
